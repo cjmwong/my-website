@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <meta charset="utf-8">
+        <title>Survey</title>
+    </head>
+
+    <body>
+        <div>
+            <a href="home.html">Home</a>
+            <a href="form.html">Survey</a>
+            <a href="projects.html">My Projects</a>
+            <a href="images.html">Gallery</a>
+        </div>
+        <fieldset>
+            <legend>General Career Questionaire</legend>
+            <div>
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="_name">
+            </div>
+            <div>
+                <label for="techExp">Years in tech industry</label>
+                <input type="text" id="techExp" name="exp">
+            </div>
+
+            <div>
+                First Programming Language
+                <input type="radio" id="c" name="fav_lang">
+                <label for="c">C</label>
+                <input type="radio" id="c++" name="fav_lang">
+                <label for="c++">C++</label>
+                <input type="radio" id="py" name="fav_lang">
+                <label for="py">Python</label>
+                <input type="radio" id="java" name="fav_lang">
+                <label for="java">Java</label>
+                <input type="radio" id="other" name="fav_lang">
+                <label for="other">Other (Please Specify): </label>
+                <input type="text" id="other_reason">
+            </div>
+
+            <div>
+                <label for="comments">Why did you choose a career in tech?</label>
+                <textarea id="comments" name="whyTech"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit Form</button>
+            </div>
+        </fieldset>
+    </body>
+</html>
