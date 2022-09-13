@@ -1,0 +1,129 @@
+.bg{
+    background-color: rgb(212, 235, 255);
+}
+.nav-home{
+    background-color: rgb(147, 197, 243);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    padding:25px;
+    color:rgb(212, 235, 255);
+    min-width: 1170px;
+}
+
+.nav-survey{
+    background-color: rgb(147, 197, 243);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+    padding:25px;
+    color:rgb(212, 235, 255);
+
+}
+
+#no-ul{
+    text-decoration: none;
+    color:rgb(28, 77, 121);
+}
+
+.welcome{
+    min-width: 1170px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    min-width: 1170px;
+}
+
+.profile{
+    height:auto;
+    width:10%;
+    min-width: 175px;
+    padding-top:25px;
+}
+
+.container{
+    display:grid;
+    justify-content: space-evenly;
+    padding-top:25px;
+    min-width: 1170px;
+}
+
+.c1{
+    display:flex;
+    grid-column: 1/2;
+    justify-content: center;
+    min-width: 350px;
+    max-width:350px;
+    padding:20px;
+}
+
+.c2{
+    display:flex;
+    grid-column: 2/3;
+    justify-content: center;
+    min-width: 350px;
+    max-width:350px;
+    padding:20px;
+}
+
+.c3{
+    display:flex;
+    grid-column: 3/4;
+    justify-content: center;
+    min-width: 350px;
+    max-width:350px;
+    padding:20px;
+}
+
+.h{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(147, 197, 243);
+    color:rgb(22, 58, 90);
+}
+
+.text{
+    font-weight: lighter;
+    font-family: 'Times New Roman', serif;
+    text-align: left;
+    line-height: 1.5;
+    background-color: white;
+    color:black;
+    background-color: rgb(212, 235, 255);
+}
+
+.container2{
+    display: grid;
+    justify-items: center;
+    grid-column: 3/9;
+    grid-template: repeat(5,1fr)/repeat(6,1fr);
+    min-width: auto;
+}
+
+
+.form{
+    display: grid;
+    grid-template: repeat(6, 1fr)/ repeat(10, 1fr);
+    grid-column: 3/9;
+}
+
+.input-area{
+    display:grid;
+    grid-row: 1/6;
+    grid-column: 1/9;
+    justify-items: center;
+}
+
+.center1{
+    display: grid;
+    justify-items: center;
+}
+
+.radio{
+    display:grid;
+    text-align: left;
+}
