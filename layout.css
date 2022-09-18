@@ -1,7 +1,7 @@
 .bg{
     background-color: rgb(212, 235, 255);
 }
-.nav-home{
+.nav{
     background-color: rgb(147, 197, 243);
     display: flex;
     justify-content: space-evenly;
@@ -126,4 +126,26 @@
 .radio{
     display:grid;
     text-align: left;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: (2,1fr);
+}
+
+.canvas{
+    width:33%;
+
+}
+
+.photos{
+    height:300px;
+    width:500px
 }
